@@ -36,8 +36,10 @@ $('document').ready(function(){
 	   $('#total').append(total);
 	    return;
 		};
-	$("<div class='created'><li class='listed' data-price=" + productid + " >"  
-	+ ui.draggable.text() + index + "<button id='delete'>Delete</button> </li></div>").appendTo(this);
+	$("<li></li>", {
+	text: ui.draggable.text(),
+	"data-price": productid
+	}).appendTo(this);
 	$('#total').empty();
 	$('#total').append(total);
 	}
