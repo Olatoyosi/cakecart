@@ -1,0 +1,187 @@
+#heading{
+	display-:inline;
+	border-width: 3px;
+	border:2px solid #CD6889;
+	border-radius: 10px;
+	width: 70%;
+	margin:0 auto;
+}
+img{
+	height:150px;
+	width:150px;
+}
+h1{
+	font-size:100px;
+	text-align: center;
+	color:#8B0A50;
+	margin-top: -30px;
+	margin-bottom: -10px;
+
+}
+body{
+	font-family: cursive;
+	
+
+}
+li{
+	display:inline;
+	border-radius: 2px;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+}
+#lists{
+		padding:10px;
+}
+#lists li {
+		border:2px solid blue;
+}
+.aligned{
+	margin-left:60px;
+	margin-right: 60px;
+	clear:both;
+	
+}
+#list img{
+	width:100px;
+	height: 100px;
+}
+
+p{
+	font-size: 20px
+}
+div{
+	text-align: center;
+}
+#alligned
+{
+	margin-top: 0;
+	text-align: justify;
+	clear:both;
+
+	width: 90%;
+
+
+}
+.product li{
+	display:inline;
+}
+.list{
+	display:inline-block;
+	list-style-type: none;
+	border:1px solid transparent;
+	border-radius: 4px;
+	margin:10px;
+	padding:3px;
+	}
+	
+}
+.item{
+	list-style-type: none;
+
+}
+
+.list p{
+	margin: 2px 0 0 0;
+	font-size: 15px;
+}
+body {
+	background-color: #FFFAFA;
+	
+	
+}
+.picture p{
+	margin top:0;
+}
+header{
+	clear:both;
+	z-index:1;
+}
+.picture{
+	
+	margin-right:0 auto;
+}
+#collection{
+	
+}
+#collection h1{
+	margin-top:20px;
+	font-size:30px;
+	text-align: left;
+	margin-left: 60px;
+}
+span{
+	font-size: 30px;
+}
+#cart{
+	line-height: 30px;
+
+}
+#cartitem{
+	text-align: right;
+}
+a{
+	text-decoration: none;
+}
+#lists{
+	background-color: #CD919E;
+	margin-bottom: 0px;
+	border: 2px solid transparent;
+	border-radius: 10px;
+}
+.products{
+	background-color: #FFE1FF;
+	margin-left: 60px;
+	
+	border: 2px solid black;
+	border-radius: 5px;
+}
+#container{
+	float:left;
+	width: 80%;
+}
+
+#cartspace{
+	float:right;
+	width:19%;
+	
+	border-radius: 8px;
+	border:2px solid blue;
+	margin-top: 10px;
+	margin-bottom: 0px;
+
+}
+#droplist{
+	
+	border-radius: 1px;
+	margin:0 auto;
+
+}
+#droplist li{
+	display:block;
+}
+#shoparea{
+	margin:10px;
+
+}
+textarea{
+
+}
+.sendmsg{
+	font-size: 40px;
+	font-weight: bold;
+}
+.fb{
+	 width:20px;
+	 height:20px;
+	 border:none;
+}
+li img{
+	border:none;
+}
+#idle{
+	background-color: #8B636C;
+}
+.detailsform{
+	font-size: 20px;
+	text-align: center;
+}
