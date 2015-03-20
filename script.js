@@ -1,6 +1,5 @@
 
 $('document').ready(function(){
-	var prrice=0;
 	var productArr = [];
 	var productprice;
 	var newtotal;
