@@ -2,6 +2,8 @@
 $('document').ready(function(){
 	var prrice=0;
 	var productArr = [];
+	var productprice;
+	var newtotal;
 
 	$('.list li').draggable({
 		appendTo:'body',
@@ -22,8 +24,10 @@ $('document').ready(function(){
 	$('#cartspace ol').droppable({
 		drop: function(event, ui){
 			var productid = ui.draggable.attr("data-price");
+			productprice=productid;
 			productArr.push(parseInt(productid));
 			var total = 0;
+			newtotal=total;
 			for(i in productArr)
 			{
 				 total += productArr[i];
@@ -37,8 +41,8 @@ $('document').ready(function(){
 				return;
 			};
 
-		 	$("<li data-price=" + productid + " >" 
-		 			+ ui.draggable.text() + index + "<button>Delete</button> </li>")
+		 	$("<div class='created'><li class='listed' data-price=" + productid + " >" 
+		 			+ ui.draggable.text() + index + "<button id='delete'>Delete</button> </li></div>")
 		 				.appendTo(this);
 			 	$('#total').empty();
 			 	$('#total').append(total);
@@ -60,20 +64,24 @@ $('document').ready(function(){
 		});
 
 		$('#sender').click(function(){
+			if ($('#droplist li').length == 1){
+			alert("YOU HAVE TO ORDER SOMETHING");
+		}
+		else{
 		$('.sendmsg').append("Your Order has been received.You would receive a mail soonest");
+			}
 		$('#total').empty();
 		});
 
 		$('#senddetails').click(function(){
 		$('.details').append("Your Order has been received.You would receive a mail soonest");
 		});
-
-		$('button').click(function(){
-			$('#droplist li').remove();
-			total -=productid;
-			console.log(total);
-			$('#total').empty();
-			$('#total').append(total);
+		$(document).on('click', '.created', function(){
+			$(this).remove();
+			var thistotal= this.productprice;
+			var finalproduct = 0;
+			  finalproduct = newtotal - thistotal;
+			$('#total').html(finalproduct);
 		});
 
 });
