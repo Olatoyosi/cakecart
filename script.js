@@ -59,7 +59,7 @@ $('document').ready(function(){
 			alert("YOU HAVE TO ORDER SOMETHING");
 		}
 		else{
-		$('#text').append("<textarea>enter your name, number and address:</textarea>");
+		$('#text').append("<textarea placeholder='enter your name, number and address:'></textarea>");
 			}
 		});
 
