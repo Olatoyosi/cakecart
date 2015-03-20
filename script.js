@@ -31,8 +31,8 @@ $('document').ready(function(){
 	   }
 	  var index = countInArray(productArr, parseInt(productid));
 	 var self = $(this);
-	 if (self.find("[data-price=" + productid + "]").length){
-	   $('#total').empty();
+	 if (self.find("[data-price=" + productid + "]").length){	//to ensure an item is not added twice
+	   $('#total').empty();						//just update the price
 	   $('#total').append(total);
 	    return;
 		};
