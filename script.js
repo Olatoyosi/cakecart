@@ -70,12 +70,4 @@ $('document').ready(function(){
 	$('#senddetails').click(function(){
 	  $('.details').append("Your Order has been received.You would receive a mail soonest");
 	 });
-	$(document).on('click', '.created', function(){
-	$(this).remove();
-	var thistotal= this.productprice;
-	var finalproduct = 0;
-	finalproduct = newtotal - thistotal;
-	$('#total').html(finalproduct);
-	});
-
 });
