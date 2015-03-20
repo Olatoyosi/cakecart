@@ -1,192 +1,169 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<title>tyCakes</title>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
-	<script Src="jquery-ui.min.js"></script>
-	<script type="text/javascript" src="script.js"></script>
-	
-	<link type="text/css" rel="stylesheet" href="style.css" >
-	</head>
-	<body>
-	<header>
-	<div id="heading">
-	<img src="birthday3.jpg">
-	<img src="birthdsy.jpg">
-	<img src="cake.jpg">
-	<img src="image13.jpg">
-	<img src="image9.jpg">
-	<img src="images.jpg">
-	</div>
-	<h1>tyCakes</h1>
-
-	<div  class="aligned" >
-		<ul id="lists">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">AboutUs</a></li>
-			<li><a href="details.html">Contact</a></li>
-			<li><a href="#">View Galery</a></li>
-			<li><a href="details.html">Special Orders</a></li>
-		</ul>
-	</div>
-	</header>
-<div id="alligned" class="aligned">
-<p><span>Welcome</span> to the most awesome cake shop on this side of the planet. Order your cakes now and get it customized for <span>free</span>.<br />You can also <span>Pay on delivery!</span> Drag cakes to the basket to make orders.</p>
+  <head>
+ <title>tyCakes</title>
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+ <script Src="jquery-ui.min.js"></script>
+ <script type="text/javascript" src="script.js"></script>
+ <link type="text/css" rel="stylesheet" href="style.css" >
+ </head>
+ <body>
+ <header>
+ <div id="heading">
+ <img src="birthday3.jpg">
+ <img src="birthdsy.jpg">
+ <img src="cake.jpg">
+ <img src="image13.jpg">
+ <img src="image9.jpg">
+ <img src="images.jpg">
+ </div>
+ <h1>tyCakes</h1>
+ <div  class="aligned" >
+ <ul id="lists">
+ <li><a href="#">Home</a></li>
+ <li><a href="#">AboutUs</a></li>
+ <li><a href="details.html">Contact</a></li>
+ <li><a href="#">View Galery</a></li>
+ <li><a href="details.html">Special Orders</a></li>
+ </ul>
+ </div>
+ </header>
+ <div id="alligned" class="aligned">
+ <p><span>Welcome</span> to the most awesome cake shop on this side of the planet. Order your cakes now and get it customized for <span>free</span>.<br />You can also <span>Pay on delivery!</span> Drag cakes to the basket to make orders.</p>
 </div>
 
-<div id="collection" class="aligned">
-	<h1>Birthday Cakes</h1>
-	<p>Order your birthday cakes here for that special someone!! Drag cakes into the cart to place your order</p>
-	</div>
-	<div class="sendmsg"></div>
-
-<div id= "shoparea">
-
-<div id="cartspace">
-<div class="picture"><img src="download.jpg"></div>
-<div id="drops">
-	<ol id ="droplist">
-	<li>Cake cart</li>
-	</ol>
+ <div id="collection" class="aligned">
+ <h1>Birthday Cakes</h1>
+ <p>Order your birthday cakes here for that special someone!! Drag cakes into the cart to place your order</p>
+ </div>
+ <div class="sendmsg"></div>
+ <div id= "shoparea">
+ <div id="cartspace">
+ <div class="picture"><img src="download.jpg"></div>
+ <div id="drops">
+ <ol id ="droplist">
+ <li>Cake cart</li>
+ </ol>
 </div>
-	<p>Total: #<h3 id="total"></h3></p>
-	<button id="cancel">Cancel Order</button>
-	<button id="complete">Complete Order</button>
-	<div id="text"></div>
-	<button id="sender">Send Order</button>
+<p>Total: #<h3 id="total"></h3></p>
+<button id="cancel">Cancel Order</button>
+<button id="complete">Complete Order</button>
+<div id="text"></div>
+<button id="sender">Send Order</button>
 </div>
 <div id="idle"></div>
-
-
-
-	<div id="container">
-	<ul class="products">
-	<div class="list">
-		<li id="vcake" data-name="choc 3" data-price="2500" data-id="1">
-			<!-- <a href="" class="item"> -->
-				<img src="choc3.jpg"/>
-				<div class="pricelist">
-					<p>choc stripes</p>
-					<p>Price:#2500</p>
-				</div>
-			<!-- </a> -->
-		</li>
-		</div>
-		<div class="list">
-		<li data-name="Rednwhite cake" data-price="3500" data-id="2">
-				<img src="birthday4.jpg"/>
-				<div class="pricelist">
-					<p>Rednwhite cake</p>
-					<p>Price:#3500</p>
-				</div>
-		</li>
-		</div>
-
-		<div class="list">
-		<li data-name="colors cake" data-price="5500" data-id="3">
-			<a href="#" class="item">
-				<img src="birthday5.jpg"/>
-				<div class="pricelist">
-					<p>colors cake</p>
-					<p>Price:#5500</p>
-				</div>
-			</a>
-		</li>
-		</div>
-
-		<div class="list">
-		<li data-name="color ribbon" data-price="6500" data-id="4">
-			
-				<img src="image10.jpg"/>
-				<div class="pricelist">
-					<p>color ribbon</p>
-					<p>Price:#6500</p>
-				</div>
-		</li>
-		</div>
-
-		<div class="list">
-		<li data-name="sweeter" data-price="3000" data-id="5">
-				<img src="image13.jpg" />
-				<div class="pricelist">
-					<p>sweeter</p>
-					<p>Price:#3000</p>
-				</div>
-		</li>
-		</div>
-
-		<div class="list">
-		<li data-name="fancy cake" data-price="8000" data-id="6">
-				<img src="images.jpg" />
-				<div class="pricelist">
-					<p>fancy cake</p>
-					<p>Price:#8000</p>
-				</div>
-		</li>
-		</div>
-
-		<div class="list">
-		<li data-name="chocolate" data-price="4500" data-id="7">
-				<img src="cakepic.jpg" />
-				<div class="pricelist">
-					<p>chocolate</p>
-					<p>Price:#4500</p>
-				</div>
-		</li>
-		</div>
-		<div class="list">
-		<li data-name="cupcake" data-price="2600" data-id="8">
-				<img src="cupcake.jpg" />
-				<div class="pricelist">
-					<p>cupcakes</p>
-					<p>Price:#2600</p>
-				</div>
-		</li>
-		</div>
-		<div class="list">
-		<li data-name="chocnwhite" data-price="4800" data-id="9">
-				<img src="choc2.jpg"/>
-				<div class="pricelist">
-					<p>chocnwhite</p>
-					<p>Price:#4800</p>
-				</div>
-		</li>
-		</div>
-		<div class="list">
-		<li data-name="purechoc" data-price="4700" data-id="10" >
-				<img src="choc4.jpg"/>
-				<div class="pricelist">
-					<p>purechoc</p>
-					<p>Price:#4700</p>
-				</div>
-			</a>
-		</li>
-		</div>
-
-		<div class="list">
-		<li data-name="18steps" data-price="9000" data-id="11" >
-				<img src="birthday11.jpg"/>
-				<div class="pricelist">
-					<p>18steps</p>
-					<p>Price:#9000</p>
-				</div>
-		</li>
-		</div>
-
-		<div class="list">
-		<li data-name="18pink" data-price="8800" data-id="12">
-				<img src="birthday12.jpg"/>
-				<div class="pricelist">
-					<p>18pink</p>
-					<p>Price:#8800</p>
-				</div>
-		</li>
-		</div>
-
-	</ul>
-	</div>
-
-</div>  
-	
-	</body>
+<div id="container">
+ <ul class="products">
+ <div class="list">
+ <li id="vcake" data-name="choc 3" data-price="2500" data-id="1">
+<img src="choc3.jpg"/>
+<div class="pricelist">
+<p>choc stripes</p>
+<p>Price:#2500</p>
+</div>
+ </li>
+ </div>
+<div class="list">
+<li data-name="Rednwhite cake" data-price="3500" data-id="2">
+<img src="birthday4.jpg"/>
+div class="pricelist">
+ <p>Rednwhite cake</p>
+<p>Price:#3500</p>
+</div>
+</li>
+</div>
+<div class="list">
+<li data-name="colors cake" data-price="5500" data-id="3">
+<img src="birthday5.jpg"/>
+<div class="pricelist">
+<p>colors cake</p>
+<p>Price:#5500</p>
+</div>
+</li>
+</div>
+<div class="list">
+<li data-name="color ribbon" data-price="6500" data-id="4">
+<img src="image10.jpg"/>
+<div class="pricelist">
+ <p>color ribbon</p>
+ <p>Price:#6500</p>
+ </div>
+ </li>
+ </div>
+ <div class="list">
+ <li data-name="sweeter" data-price="3000" data-id="5">
+ <img src="image13.jpg" />
+<div class="pricelist">
+<p>sweeter</p>
+<p>Price:#3000</p>
+</div>
+</li>
+</div>
+ <div class="list">
+ <li data-name="fancy cake" data-price="8000" data-id="6">
+<img src="images.jpg" />
+  <div class="pricelist">
+  <p>fancy cake</p>
+  <p>Price:#8000</p>
+ </div>
+   </li>
+  </div>
+ <div class="list">
+  <li data-name="chocolate" data-price="4500" data-id="7">
+  <img src="cakepic.jpg" />
+  <div class="pricelist">
+ <p>chocolate</p>
+ <p>Price:#4500</p>
+  </div>
+  </li>
+  </div>
+ <div class="list">
+ <li data-name="cupcake" data-price="2600" data-id="8">
+ <img src="cupcake.jpg" />
+ <div class="pricelist">
+<p>cupcakes</p>
+<p>Price:#2600</p>
+ </div>
+ </li>
+</div>
+ <div class="list">
+  <li data-name="chocnwhite" data-price="4800" data-id="9">
+ <img src="choc2.jpg"/>
+ <div class="pricelist">
+ <p>chocnwhite</p>
+ <p>Price:#4800</p>
+  </div>
+  </li>
+  </div>
+ <div class="list">
+ <li data-name="purechoc" data-price="4700" data-id="10" >
+ <img src="choc4.jpg"/>
+  <div class="pricelist">
+  <p>purechoc</p>
+  <p>Price:#4700</p>
+  </div>
+  </li>
+  </div>
+ <div class="list">
+  <li data-name="18steps" data-price="9000" data-id="11" >
+ <img src="birthday11.jpg"/>
+ <div class="pricelist">
+ <p>18steps</p>
+ <p>Price:#9000</p>
+ </div>
+  </li>
+  </div>
+  <div class="list">
+  <li data-name="18pink" data-price="8800" data-id="12">
+ <img src="birthday12.jpg"/>
+  <div class="pricelist">
+  <p>18pink</p>
+  <p>Price:#8800</p>
+  </div>
+   </li>
+  </div>
+  </ul>
+   </div>
+ </div>  
+</body>
 </html>
