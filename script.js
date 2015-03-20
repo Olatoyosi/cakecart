@@ -51,11 +51,17 @@ $('document').ready(function(){
 
 		$('#complete').click(function()
 		{
+		if ($('#droplist li').length == 1){
+			alert("YOU HAVE TO ORDER SOMETHING");
+		}
+		else{
 		$('#text').append("<textarea>enter your name, number and address:</textarea>");
+			}
 		});
 
 		$('#sender').click(function(){
 		$('.sendmsg').append("Your Order has been received.You would receive a mail soonest");
+		$('#total').empty();
 		});
 
 		$('#senddetails').click(function(){
